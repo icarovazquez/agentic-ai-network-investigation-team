@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local evidence, benchmark data, and generated outputs
+data/
+outputs/
+network_investigations/
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
